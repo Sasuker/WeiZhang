@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ProgressBar
+        android:id="@+id/load_progressBar_id"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:indeterminateDrawable="@drawable/custom_progress"/>
+    <TextView
+        android:id="@+id/click_refresh_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="点击刷新"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/fail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="加载失败"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/img_load_fail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"
+        android:visibility="gone" />
+
+</LinearLayout>

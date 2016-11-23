@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group>
+    <item android:id="@+id/shouye"
+        android:checkable="true"
+        android:title="首页"
+        android:icon="@drawable/shouye"/>
+    <item android:id="@+id/history"
+        android:checkable="true"
+        android:title="历史记录"
+        android:icon="@drawable/history"/>
+    <item android:icon="@drawable/shezhi"
+        android:title="设置"
+        android:id="@+id/shezhi"
+        android:checkable="true"/>
+    <item android:icon="@drawable/change"
+        android:id="@+id/change"
+        android:checkable="true"
+        android:title="切换用户"/>
+</group>
+</menu>
